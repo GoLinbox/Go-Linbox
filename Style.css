@@ -1,0 +1,1391 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #110614;
+    font-size: 0px;
+}
+html {
+    text-rendering: optimizeSpeed;
+    scroll-behavior: smooth;
+    scroll-snap-type: none;
+}
+td {
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+table {
+    border-spacing: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+img {
+    object-fit: cover;
+}
+.main {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0px auto;
+    
+}
+
+/*The nav CSS*/
+nav {
+    display: flex;
+    padding: 5% 8%;
+    padding-bottom: 1%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 0px;
+    position: relative;
+    background-color: #190e1d;
+}
+nav img {
+    width: 250px;
+    height: 40px;
+    padding-top: 15px;
+    transition: 0.5s;
+}
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    padding-top: 18px;
+    margin-left: auto;
+}
+.nav-links ul li a {
+    color: #b9f2fc;
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding: 0px;
+    margin: 0px;
+}
+.link li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #99317c;
+    display: block;
+    margin: auto;
+    transition: 0.6s;
+}
+.link li:hover::after {
+    width: 100%;
+}
+.nav-links > .fa {
+    display: none;
+}
+.shownav-logo {
+    display: none;
+}
+.contact .fa {
+    color: #fff;
+    font-size: 1rem;
+    transition: 0.5s;
+}
+.contact .fa:hover {
+    color: #99317c;
+}
+.contact {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+.link {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 12px;
+}
+.contact h3 {
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border: 1px solid #40174b;
+    padding: 10px 30px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.contact h3:hover {
+    background-color: #40174b;
+}
+.contact::after {
+    height: 0px;
+}
+/*The Header CSS*/
+.header {
+    width: 100%;
+    background-image: linear-gradient(to right, #11061465, #11061465), url(/Images/Banner\ 4.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.box {
+    position: relative;
+    max-width: 100%;
+    text-align: left;
+    background-color: #110614;
+}
+/*The Text-box*/
+.banner-content {
+    width: 80%;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-box {
+    width: 100%;
+    max-width: 550px;
+    color: #110614;
+    text-align: left;
+    font-size: 0.8rem;
+    margin: 30px;
+    padding-top: 70px;
+}
+.text-box-img {
+    max-width: 500px;
+    margin: 10px;
+    padding-top: 40px;
+}
+.text-box h1 {
+    font-size: 1.8rem;
+}
+.text-box p {
+    margin: 10px 0px 40px;
+}
+.hero-btn {
+    text-decoration: none;
+    color: white;
+    border: 1px solid #99317c;
+    padding: 10px 30px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.hero-btn:hover {
+    border: 1px solid #99317c;
+    background: #99317c;
+    color: #fff;
+}
+
+/*The Header bottom CSS*/
+.head-design {
+    height: 40px;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #f5d7ec 50%, #110614 51%);
+}
+
+/*The CRM Section CSS*/
+.crm {
+    background-color: #110614;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.crm-logo {
+    max-width: 250px;
+}
+.crm-logo a img {
+    width: 70%;
+    transition: 0.5s;
+}
+.crm-logo img:hover {
+    opacity: 0.4;
+    box-shadow: #40174b 0px 0px 10px 0px;
+    border-radius: 10px;
+}
+/*Top Services CSS*/
+.heading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding-bottom: 20px;
+    margin: 0px auto;
+    padding: 0px 8px;
+}
+.four-columns {
+    display: flex;
+    width: 100%;
+    max-width: max-content;
+    text-align: center;
+    margin: 0px;
+}
+.four-columns .column {
+    max-width: 500px;
+    width: 100%;
+    margin: 0px auto;
+}
+.first-btn {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+    transition: 1s;
+}
+.first-btn:hover {
+    border: 1px solid #252322;
+    background: #252322;
+    color: white;
+}
+
+.service {
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #1a081f;
+    color:#ffffff;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+.service-1 {
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #f5d7ec;
+    color:#000;
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+/*24/7 Availability*/
+.head {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    padding-bottom: 20px;
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 0px 8px;
+}
+.head p {
+    font-size: 0.7rem;
+}
+.three-columns {
+    text-align: center;
+    margin: 0px;
+}
+.three-columns .column2 {
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    transition: 0.5s;
+}
+.column2 {
+    background-color: #280d22;
+    border-radius: 10px;
+}
+.bd-style {
+    text-align: left; 
+    font-size: 0.8rem; 
+    background-color: #280d22; 
+    color: #888; 
+    padding: 20px; 
+    padding-bottom: 50px; 
+    border: 1px solid #f5d7ec;
+    border-radius: 10px;
+}
+.column2:hover {
+    box-shadow: 0 0 10px 0px #f5d7ec;
+}
+.bd-style a {
+    color: #f5d7ec;
+    transition: 0.5s;
+}
+.bd-style a:hover {
+    color: #99317c;
+}
+
+/*Services Slideshow CSS*/
+.container {
+    width: 100%;
+    background-color: #110614;
+    font-size: 1.6rem;
+}
+.My-Swipe {
+    width: 90%;
+    padding: 10px 0px;
+    margin: 0px auto;
+}
+.My-Swipe> h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+.swiping {
+    text-align: center;
+    font-size: 0.5rem;
+    color: #cb3ff1;
+    background-color: #110614;
+}
+.swiping img {
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.show {
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.text1 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #280d22;
+    width: 100%;
+}
+.text1 h3 {
+    color: #f5d7ec;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    border-radius: 10px;
+    background-color: #f5d7ec;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+.show:hover .overlay {
+    width: 100%;
+    left: 0%;
+}
+.txt {
+    padding-top: 30px;
+    margin: 10px;
+    color: #110614;
+}
+.btn {
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: 20px;
+    background-color: #110614;
+    font-size: 0.6rem;
+}
+.btn a{
+    text-align: center;
+    padding: 10px 30px;
+    background: transparent;
+    border: 1px solid #99317c;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.btn a:hover {
+    background-color: #99317c;
+    cursor: pointer;
+    color: #f5d7ec;
+}
+
+/*About Section CSS*/
+.about {
+    font-size: 0.8rem;
+    color: #fff;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.txt-img .abt {
+    display: inline-block;
+    vertical-align: top;
+}
+.txt-img> h1 {
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+}
+.abt {
+    text-align: left;
+    padding-right: 50px;
+}
+.abt img {
+    border-radius: 18px;
+    border-right: 2px dashed #99cdf8;
+    border-bottom: 2px dashed #99cdf8;
+    box-shadow: 3px 3px 5px 0px #99317c;
+    margin-right: 65px;
+    max-width: 500px;
+}
+.abt-txt {
+    padding-top: 80px;
+    margin:0px auto;
+    max-width: 250px;
+}
+.abt-txt a {
+    padding: 10px 30px;
+    border: 1px solid #99317c;
+    font-size: 0.6rem;
+    transition: 0.5s;
+}
+.abt-txt a:hover {
+    background-color: #99317c;
+    color: #fff;
+}
+
+/*The demarcation CSS*/
+
+/*The Blog Section CSS*/
+.blog-container {
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.blog-content {
+    font-size: 0.8rem;
+    margin-top: 15px;
+    background-color: #280d22;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 30px;
+    transition: 0.3s;
+}
+.blog-content:hover {
+    margin-top: 5px;
+    margin-bottom: 55px;
+    box-shadow: 0px 0px 10px 0px #666;
+}
+.blog-content h3~p {
+    text-align: left;
+    padding: 20px;
+    color: #888;
+}
+.blog-content h3 {
+    text-align: left;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+.blog-btn {
+    text-align: left;
+    padding: 40px 0px;
+}
+.blog-btn a{
+    text-align: left;
+    margin: 20px;
+    padding: 10px 30px;
+    background-color: #f5d7ec;
+    color: #280d22;
+    border: 1px solid #f5d7ec;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: 50;
+}
+.blog-btn a:hover {
+    border: 1px solid #b1569ba1;
+    background-color: #280d22;
+    color: white;
+}
+
+/*The Swiper JS CSS*/
+.swiper {
+    width: 90%;
+    padding: 50px 0px;
+    font-size: 0.8rem;
+}
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.5rem;
+    color: #fff;
+    background-color: #0e0c0c;
+    max-width: 300px;
+}
+.swiper-wrapper img {
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.swiper-slide {
+    margin-right: 10px;
+}
+.swiper .swiper-button-next, .swiper .swiper-button-prev {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #190e1d;
+    color: #fff;
+    opacity: 0.9;
+}
+.swiper-pagination {
+    opacity: 5;
+}
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #110614;
+}
+
+/*The Review Section CSS*/
+.review {
+    background-color: #110614;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.review-split .split1 {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+    border-right: 2px dashed #fff;
+    padding: 60px;
+    margin: 30px;
+}
+.split1 img {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 98%;
+}
+.split1 hr {
+    height: 1px;
+    border: none;
+    background-color: #444;
+    margin: 5px 0px;
+}
+.hor {
+    margin-top: 40px;
+}
+.split1 p {
+    font-size: 0.8rem;
+    padding: 20px auto;
+    margin-bottom: 30px;
+}
+.split1 a {
+    padding: 10px 30px;
+    border: 1px solid #40174b;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+.split1 a:hover {
+    background-color: #40174b;
+}
+.review-content {
+    background-color: #f5d7ec;
+    padding: 30px;
+}
+.review-split .swiper {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 700px;
+    width: 100%;
+    padding-bottom: 40px;
+    padding: 10px 0px;
+    text-align: left;
+    background-color: #f5d7ec;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.swiper-slide {
+    margin: 0px;
+}
+.split2 {
+    width: 700px;
+    text-align: left;
+}
+.swiper-wrapper {
+    background-color: #f5d7ec;
+}
+.review-content .review-img {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 80px;
+    text-align: left;
+}
+.review-img img {
+    width: 85%;
+    padding-top: 40px;
+}
+.review-content .review-txt {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 500px;
+    color: #110614;
+    padding: 20px;
+    width: 100%;
+}
+.review-txt hr {
+    height: 1px;
+    border: none;
+    background-color: #110614;
+    width: 80%;
+    margin: 30px 0px;
+}
+
+/*The Template Section CSS*/
+.template {
+    padding: 20px;
+    text-align: center;
+}
+.mySlides {
+    display: none;
+    padding: 50px 2px;
+    width: 100%;
+}
+.w3-section {
+    display: flex;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #40174b;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 40px;
+    padding-bottom: 10px;
+    border: 1px solid #f5d7ec;
+}
+.w3-content {
+    text-align: center;
+    margin: 0px auto;
+}
+.w3-button  {
+    background-color: #f5d7ec;
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    margin: 2px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.template-cta {
+    text-align: center;
+    font-size: 0.7rem;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.template-cta a {
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 1px solid #99317c;
+    transition: 0.5s;
+}
+.template-cta a:hover {
+    background-color: #99317c;
+}
+.template-cta p {
+    color: #888;
+    font-size: 0.8rem;
+    padding-top: 10px;
+}
+
+
+/*The Footer Section*/
+.container-last {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-color: #190e1d;
+    margin-top: 70px;
+}
+
+/*The Major CTA CSS*/
+.contact-cta {
+    position: absolute;
+    background-color: #40174b;
+    max-width: 500px;
+    width: 100%;
+    font-size: 0.8rem;
+    color: #f5d7ec;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 20px;
+    padding: 30px;
+}
+.cta-content {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+}
+.cta-content a {
+    padding: 8px 20px;
+    border: 1px solid #cb3ff1;
+    transition: 0.5s;
+}
+.cta-content a:hover {
+    background-color: #cb3ff1;
+}
+.cta-content p {
+    padding-top: 8px;
+    color: #888;
+}
+
+.top {
+    background-color: #40174b;
+    margin-bottom: 80px;
+    height: 30px;
+}
+.top h2 li {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #40174b;
+}
+.dash {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.top a {
+    margin-left: 5px;
+}
+.newsletter-txt {
+    font-size: 0.9rem;
+    color: #b9f2fc;
+    text-align: center;
+    padding-top: 20px;
+}
+.newsletter {
+    font-size: 1rem;
+    margin: 25px auto;
+    color: #444;
+    background-color: #fff;
+    width: fit-content;
+    padding: 7px 15px;
+    border-radius: 35px;
+}
+.newsletter input {
+    padding: 20px 2px;
+    padding-right: 100px;
+    font-size: 0.7rem;
+    border: none;
+}
+.newsletter a {
+    padding: 13px 30px;
+    background-color: #280d22;
+    text-align: right;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.newsletter a:hover {
+    background-color: #40174b;
+}
+.footer-main {
+    font-size: 0.7rem;
+}
+.footer-col {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    max-width: 200px;
+    text-align: left;
+    width: 100%;
+}
+.footer-col h2 {
+    color: #99cdf8;
+}
+.footer-col hr {
+    border: none;
+    height: 1px;
+    background-color: #99cdf8;
+    opacity: 0.3;
+    width: 80%;
+    margin-left: 0px;
+}
+.footer-col ul {
+    padding: 0px;
+}
+.footer-col ul li {
+    list-style: none;
+    position: relative;
+    padding: 5px;
+}
+.footer-col ul li a {
+    transition: 0.5s;
+}
+.footer-col ul li a:hover {
+    color: #99cdf8;
+}
+.socials {
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.dec {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+    width: 100%;
+    padding-top: 10px;
+}
+.dec hr {
+    border: none;
+    height: 1px;
+    background-color: #fff;
+    opacity: 0.3;
+    margin: 2px;
+    max-width: 300px;
+}
+.social-icons {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 300px;
+    width: 100%;
+    padding: 0px 10px;
+    margin: 0px;
+}
+.social-icons .fa {
+    padding: 0px 15px;
+    color: #99cdf8;
+    transition: 0.5s;
+}
+.social-icons .fa:hover {
+    color: #99317c;
+}
+.copy {
+    text-align: center;
+    color: #999;
+    background-color: #0e000a;
+    margin: 0px;
+}
+.copy p {
+    font-size: 0.6rem;
+    padding: 20px;
+    margin: 0px;
+}
+
+
+
+ /*The Media Query*/
+
+ /*The Nav Bar CSS MQ*/
+@media (max-width: 807px) {
+    .text-box h1 {
+        font-size: 1rem;
+    }
+    .nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #99317c;
+    display: block;
+    margin: 0px;
+    transition: 0.6s;
+}
+    .nav-links ul li:hover::after {
+    width: 100%;
+}
+    nav {
+        padding: 2% 0%;
+        justify-content: space-between;
+    }
+    nav img {
+    width: 180px;
+    height: 40px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+    .nav-links ul li{
+        display: block;
+        padding-top: 10px;
+        width: fit-content;
+        margin-right: auto;
+        margin-left: 0px;
+    }
+    
+    .shownav-logo {
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: 120px;
+        margin-left: 40px;
+    }
+    .shownav-logo p {
+        padding-bottom: 0px;
+        color: #888;
+        margin: 0px;
+    }
+    .shownav-logo img {
+        margin-top: 10px;
+        padding: 0px;
+        text-align: center;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .shownav-logo img:hover {
+        opacity: 0.6;
+    }
+    .nav-links {
+        position: absolute;
+        background: #190e1d;
+        height: 700%;
+        width: 100%;
+        padding: 20px;
+        top: 0%;
+        right: 100%;
+        text-align: left;
+        z-index: 2;
+        transition:1s;
+    }
+    .nav-links a {
+        text-decoration: none;
+    }
+    nav .fa {
+        display: block;
+        color: #ffffff;
+        margin: 10px;
+        margin-left: auto;
+        text-align: right;
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin-right: 25px;
+    }
+    .nav-links ul {
+        padding: 60px;
+    }
+    .abt-txt {
+    padding-top: 0px;
+}
+}
+@media (max-width: 330px) {
+    .shownav-logo {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .shownav-logo img {
+        text-align: left;
+        margin-left: 0px;
+        margin-right: auto;
+    }
+}
+@media (max-width: 1109px) {
+    .contact {
+        display: none;
+    }
+    .link {
+        padding-top: 10px;
+    }
+}
+@media (max-width: 350px) {
+    .nav-links {
+        height: 100vh;
+    }
+}
+@media (max-width: 330px) {
+    .shownav-logo {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .shownav-logo a img {
+        width: 150%;
+    }
+    .shownav-logo p {
+        padding-left: 15px;
+    }
+}
+
+
+/*The Heading CSS MQ*/
+@media (max-width: 1109px) {
+    .text-box-img {
+    max-width: 500px;
+}
+}
+@media (max-width: 1100px) {
+    .text-box-img {
+        padding-top: 80px;
+    }
+}
+@media (max-width: 881px) {
+    .banner-content {
+        align-items: center;
+        align-content: center;
+        flex-direction: column-reverse;
+        margin: 0px auto;
+        width: 85%;
+        top: 90%;
+        left: 50%;
+        font-size: 1rem;
+        margin-top: 20px;
+        transform: translate(-50%, -50%);
+    }
+    .text-box {
+        text-align: center;
+        padding-bottom: 30px;
+        padding-top: 0px;
+        margin-top: 0px;
+        color: #fff;
+    }
+    .text-box-img {
+        margin-right: 145px;
+        font-size: 0.7rem;
+        justify-content: center;
+    }
+    .crm {
+        margin-top: 350px;
+    }
+}
+@media (max-width: 777px) {
+    .crm {
+        margin-top: 300px;
+    }
+}
+@media (max-width: 800x) {
+    .text-box-img {
+        margin-right: 90px;
+    }
+}
+@media (max-width: 700px) {
+    .text-box-img {
+        margin-right: 100px;
+    }
+}
+@media (max-width: 601px) {
+    .banner-content {
+        padding: 0px 10px;
+        top: 110%;
+    }
+    .text-box {
+        padding-bottom: 10px;
+    }
+    .text-box-img {
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-right: 120px;
+    }
+    .crm {
+        margin-top: 280px;
+    }
+}
+@media (max-width: 534px) {
+    .text-box-img {
+        margin-right: 90px;
+    }
+}
+@media (max-width: 472px) {
+    .banner-content {
+        width: 90%;
+        top: 125%;
+    }
+}
+@media (max-width: 396px) {
+    .banner-content {
+        font-size: 0.6rem;
+        width: 100%;
+        top: 140%;
+    }
+    .crm {
+        margin-top: 10px;
+    }
+    .all-content {
+        margin: 0px;
+    }
+    .crm {
+        margin-top: 250px;
+    }
+}
+@media (max-width: 400px) {
+    .text-box {
+        width: 100%;
+        max-width: 400px;
+    }
+    .hero-btn {
+        padding: 8px 20px;
+        font-size: 0.5rem;
+    }
+}
+@media (max-width: 354px) {
+    .text-box-img {
+        align-items: center;
+        margin-right: 90px;
+    }
+    .text-box {
+        font-size: 0.5rem;
+    }
+    .text-box-img img {
+        width: 140%;
+    }
+    .banner-content {
+        top: 140%;
+    }
+    .crm {
+        margin-top: 250px;
+    }
+}
+@media (max-width: 320px) {
+    .crm {
+        margin-top: 225px;
+    }
+    .header>a img {
+        width: 250%;
+    }
+}
+@media (max-width: 300px) {
+    .banner-content {
+        top: 160%;
+    }
+    .text-box-img {
+        margin-right: 80px;
+    }
+    .crm {
+        margin-top: 250px;
+    }
+}
+@media (max-width: 250px) {
+    .banner-content {
+        top: 180%;
+    }
+    .text-box-img img {
+        width: 160%;
+    }
+}
+@media (max-width: 225px) {
+    .banner-content {
+        top: 195%;
+    }
+}
+
+/*Top Services CSS MQ*/
+@media (max-width: 919px) {
+    .four-columns {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px auto;
+    }
+    .four-columns .column {
+        margin: 0px auto;
+    }
+}
+
+/*The About CSS MQ*/
+@media (max-width: 1018px) {
+    .abt-txt {
+        width: 100%;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-right: auto;
+}
+}
+
+
+/*The Review CSS MQ*/
+
+/*Review Split1 CSS MQ*/
+@media (max-width: 1203px) {
+    .review-split .split1 {
+        border-right: none;
+        padding-left: 50px;
+        margin: 0px;
+    }
+}
+@media (max-width: 1061px) {
+    .review-split .split1 {
+        padding: 20px;
+        margin: 0px;
+    }
+}
+
+/*Review Split2 CSS MQ*/
+@media (max-width: 675px) {
+    .review-content {
+        display: block;
+        width: 65%;
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    .split1 {
+        font-size: 0.5rem;
+    }
+    .split2 {
+        text-align: center;
+    }
+    .review-txt hr {
+        text-align: center;
+        margin: 15px auto;
+    }
+    .review-img {
+        text-align: center;
+        padding-left: 35px;
+    }
+}
+@media (max-width: 610px) {
+    .review-content {
+        margin-left: 16px;
+    }
+}
+@media (max-width: 570px) {
+    .review-content {
+        width: 55%;
+        text-align: center;
+        margin: 0px;
+    }
+    .split2 {
+        text-align: center;
+    }
+}
+@media (max-width: 500px) {
+    .review-content {
+        width: 45%;
+        text-align: center;
+    }
+    .split2 {
+        text-align: center;
+    }
+}
+@media (max-width: 451px) {
+    .review-content {
+        width: 40%;
+        text-align: center;
+    }
+    .split2 {
+        text-align: center;
+    }
+}
+@media (max-width: 400px) {
+    .review-content {
+        width: 35%;
+        text-align: center;
+    }
+    .split2 {
+        text-align: center;
+    }
+}
+@media (max-width: 356px) {
+    .review-content {
+        width: 28%;
+        text-align: center;
+    }
+    .review-split .split1 {
+        width: 70%;
+        text-align: center;
+    }
+}
+@media (max-width: 300px) {
+    .review-content {
+        width: 20%;
+        text-align: center;
+    }
+    .split2 {
+        text-align: center;
+    }
+}
+@media (max-width: 250px) {
+    .review-content {
+        width: 12%;
+        text-align: center;
+    }
+    .split2 {
+        text-align: center;
+    }
+}
+
+/*The Template CSS MQ*/
+@media (max-width: 500px) {
+    .w3-section {
+        width: 80%;
+        padding: 10px 15px;
+    }
+    .w3-button {
+        text-align: center;
+        padding: 5px 10px;
+    }
+}
+
+/*The Footer CSS MQ*/
+@media (max-width: 615px){
+    .contact-cta {
+        max-width: 350px;
+        font-size: 0.6rem;
+    }
+}
+@media (max-width: 454px) {
+    .contact-cta {
+        max-width: 290px;
+        font-size: 0.6rem;
+    }
+    .cta-content h3 {
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 393px) {
+    .contact-cta {
+        max-width: 200px;
+        font-size: 0.5rem;
+    }
+    .cta-content h3 {
+        padding-bottom: 10px;
+    }
+}
+@media (max-width: 499px) {
+    .dash {
+        display: none;
+    }
+}
+@media (max-width: 440px) {
+    .newsletter {
+        font-size: 0.3rem;
+        padding: 2px 10px;
+        border-radius: 20px;
+        width: 90%;
+    }
+    .newsletter input {
+        padding-right: 0px;
+    }
+    .newsletter a {
+        padding: 5px 20px;
+    }
+}
+@media (max-width: 988px) {
+    .footer-col {
+        max-width: 350px;
+        text-align: center;
+    }
+    .footer-col hr {
+        margin: 10px auto;
+        width: 60%;
+    }
+}
+@media (max-width: 399px) {
+    .footer-col {
+        max-width: 350px;
+        text-align: left;
+    }
+    .footer-col hr {
+        margin: 0px;
+        width: 60%;
+    }
+}
+@media (max-width: 249px) {
+    .social-icons {
+        text-align: left;
+    }
+}
+@media (max-width: 949px) {
+    .dec {
+        display: block;
+        margin: 0px auto;
+        width: 90%;
+    }
+    .social-icons .fa {
+        padding-top: 15px;
+
+    }
+}
